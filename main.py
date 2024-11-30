@@ -33,14 +33,15 @@ def customTicket():
             element=input("Invalid input. Enter your lottery number between 1 and 49: ")
         elif element <1 or element >49:
             element=input("Invalid input. Enter your lottery number between 1 and 49: ")
-        else: 
-            list2.append(int(element))
+    
+        list2.append(int(element))
     
     megaNumber= int(input("Enter your mega number between 1 and 19: "))
     if megaNumber <1 or megaNumber > 19: 
-        megaNumber = int(input("Invalid input. Enter your mega number between 1 and 49)"
-    else: 
-        list2.append(megaNumber)
+        megaNumber = int(input("Invalid input. Enter your mega number between 1 and 19)"))
+    
+    list2.append(megaNumber)
+    
     return list2
         
 
